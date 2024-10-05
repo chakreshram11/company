@@ -1,0 +1,13 @@
+{
+    "banners": [
+      {
+        "id": 1,
+        "imageUrl": "/logo192.png"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/logo192.png"
+      }
+    ]
+  }
+  
