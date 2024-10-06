@@ -10,13 +10,13 @@
         "id": 2,
         "imageUrl": "/2.png",
         "title": "Special Offers",
-        "description": "Grab the best deals today"
+        "description": "Premium Pipes for Every Industry"
       },
       {
         "id": 3,
-        "imageUrl": "/logo192.png",
+        "imageUrl": "/1.png",
         "title": "Offers",
-        "description": "Grab the best deals today"
+        "description": "Your Trusted Source for Quality Pipes"
       }
     ]
   }

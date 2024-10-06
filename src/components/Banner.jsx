@@ -32,7 +32,7 @@ const Banner = ({ banner, isActive }) => {
       />
       {/* Overlay Layer */}
       {isActive && (
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center">
           <div className="text-white text-center">
             <h2 className="text-2xl font-semibold">{banner.title}</h2>
             <p className="mt-2 text-3xl font-bold">{typedDescription}</p>
