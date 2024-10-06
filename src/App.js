@@ -11,7 +11,7 @@ import ScrollToTop from "./components/ScrillToTop";
 function App() {
   return (
     <div className="select-none">
-    <Router>
+    <Router basename="/company">
       <ScrollToTop />
       <Header />
       <div className="font-bold text-center mt-16 mb-4">
