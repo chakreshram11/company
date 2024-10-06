@@ -39,9 +39,9 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-green-800 text-white py-8">
+      <footer className="bg-green-900 text-white py-8">
         <div className="container mx-auto">
-          <div className="flex flex-col md:flex-row justify-between">
+          <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <div className="md:w-6/12 mb-6 md:mb-0">
               <h6 className="text-lg font-semibold mb-2">About Us</h6>
               <p className="text-sm">
@@ -57,13 +57,14 @@ export default function Footer() {
               <h6 className="text-lg font-semibold mb-2">Quick Links</h6>
               <ul className="list-none space-y-1">
                 <li><Link to="/" className="text-sm hover:underline">Home</Link></li>
+                <li><Link to="/about" className="text-sm hover:underline">About</Link></li>
                 <li><Link to="/product" className="text-sm hover:underline">Product</Link></li>
                 <li><Link to="/contact" className="text-sm hover:underline">Contact</Link></li>
               </ul>
             </div>
             <div className="md:w-1/12 mb-6 md:mb-0 mr-8">
               <h6 className="text-lg font-semibold mb-2">Follow Us</h6>
-              <div className="flex space-x-4">
+              <div className="flex justify-center md:justify-start space-x-4">
                 <a href="https://www.facebook.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
                   <TiSocialFacebook size={24} />
                 </a>

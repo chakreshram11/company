@@ -14,7 +14,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Header />
-      <div className="font-bold text-center mt-9 mb-4">
+      <div className="font-bold text-center mt-16 mb-4">
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/about" element={<AboutScreen />} />

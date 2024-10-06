@@ -20,12 +20,18 @@ function Header() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-4">
-          <Link to="/" className='text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200'>Home</Link>
-          <Link to="/about" className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">About</Link>
-          <Link to="/product" className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200">Products</Link>
+          <div>
+          <Link to="/" className='text-lg font-medium text-black-600 hover:text-blue-600 transition-colors duration-200'>HOME</Link>
+          </div>
+          <div>
+          <Link to="/about" className="text-lg font-medium text-black-600 hover:text-blue-600 transition-colors duration-200">ABOUT</Link>
+          </div>
+          <div>
+          <Link to="/product" className="text-lg font-medium text-black-600 hover:text-blue-600 transition-colors duration-200">PRODUCTS</Link>
+          </div>
           <div className="relative flex items-center">
-            <Link to="/contact" className="ml-4 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200 pr-2">Contact Us</Link>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500 animate-bounce"></span>
+            <Link to="/contact" className="text-lg font-medium text-black-600 hover:text-blue-600 transition-colors duration-200 pr-2">CONTACT</Link>
+            <span className="relative animate-pulse inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
           </div>
         </div>
 
@@ -41,10 +47,10 @@ function Header() {
 
       {/* Mobile Links (Dropdown) */}
       <div className={`${isOpen ? "block" : "hidden"} text-center fixed top-16 left-0 w-full bg-gray-100 md:hidden z-40`}>
-        <Link to="/" className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>Home</Link>
-        <Link to="/about" className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>About</Link>
-        <Link to="/product" className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>Products</Link>
-        <Link to="/contact" className="text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>Contact Us</Link>
+        <Link to="/" className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>HOME</Link>
+        <Link to="/about" className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>ABOUT</Link>
+        <Link to="/product" className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>PRODUCTS</Link>
+        <Link to="/contact" className="animate-pulse text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors duration-200 block py-2" onClick={toggleMenu}>CONTACT US</Link>
       </div>
     </div>
   );
