@@ -9,7 +9,7 @@ function AboutScreen() {
       <div className="mb-8 text-center">
         <button 
           onClick={() => navigate(-1)} 
-          className="border-4 border-sky-500 rounded-lg p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
+          className="border-4 border-sky-500 bg-white rounded-lg p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
         >
           Back
         </button>
@@ -24,18 +24,18 @@ function AboutScreen() {
       </section>
 
       {/* Mission and Values */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold mb-4 text-center md:text-left text-green-700">Our Mission</h2>
+      <section className="mb-12 bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100 py-8 px-6 rounded-lg shadow-md">
+      <h2 className="text-3xl font-bold mb-4 text-center md:text-left text-green-700">Our Mission</h2>
         <p className="text-lg text-gray-700 leading-relaxed text-center md:text-left">
           Our mission is to deliver top-quality piping solutions that meet the highest industry standards while ensuring environmental sustainability. We aim to exceed our customers' expectations by providing reliable products, expert technical support, and timely delivery.
         </p>
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-center md:text-left text-blue-600">Our Values</h2>
-        <ul className="list-disc pl-5 text-lg text-gray-700 leading-relaxed">
-          <li><strong>Quality:</strong> We are dedicated to producing pipes that are strong, durable, and built to last.</li>
-          <li><strong>Innovation:</strong> We continually invest in research and development to stay ahead of the curve in piping technologies.</li>
-          <li><strong>Sustainability:</strong> We are committed to reducing our environmental impact through eco-friendly materials and processes.</li>
-          <li><strong>Customer Satisfaction:</strong> Our customers are at the heart of everything we do, and we strive to deliver outstanding service.</li>
-        </ul>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-center md:text-left text-blue-600">Our Values</h2> 
+          <ul className="list-none pl-5 text-lg text-gray-700 leading-relaxed text-left">
+            <li><strong>Quality:</strong> We are dedicated to producing pipes that are strong, durable, and built to last.</li>
+            <li><strong>Innovation:</strong> We continually invest in research and development to stay ahead of the curve in piping technologies.</li>
+            <li><strong>Sustainability:</strong> We are committed to reducing our environmental impact through eco-friendly materials and processes.</li>
+            <li><strong>Customer Satisfaction:</strong> Our customers are at the heart of everything we do, and we strive to deliver outstanding service.</li>
+          </ul>
       </section>
 
       {/* Team Section */}

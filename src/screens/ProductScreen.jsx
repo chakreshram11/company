@@ -9,6 +9,12 @@ function ProductScreen() {
     { id: 1, name: 'Industrial Steel Pipe', description: 'Durable steel pipes for heavy-duty industrial use.', price: '$150 per unit' },
     { id: 2, name: 'PVC Water Pipe', description: 'High-quality PVC pipes for water management solutions.', price: '$50 per unit' },
     { id: 3, name: 'Custom Fabricated Pipe', description: 'Pipes made to order for specific project requirements.', price: 'Contact us for pricing' },
+    { id: 4, name: 'Industrial Steel Pipe', description: 'Durable steel pipes for heavy-duty industrial use.', price: '$150 per unit' },
+    { id: 5, name: 'PVC Water Pipe', description: 'High-quality PVC pipes for water management solutions.', price: '$50 per unit' },
+    { id: 6, name: 'Custom Fabricated Pipe', description: 'Pipes made to order for specific project requirements.', price: 'Contact us for pricing' },
+    { id: 7, name: 'Industrial Steel Pipe', description: 'Durable steel pipes for heavy-duty industrial use.', price: '$150 per unit' },
+    { id: 8, name: 'PVC Water Pipe', description: 'High-quality PVC pipes for water management solutions.', price: '$50 per unit' },
+    { id: 9, name: 'Custom Fabricated Pipe', description: 'Pipes made to order for specific project requirements.', price: 'Contact us for pricing' },
   ];
 
   return (
@@ -16,7 +22,7 @@ function ProductScreen() {
       <div className="mb-8 text-center">
         <button 
           onClick={() => navigate(-1)} 
-          className="border-4 border-sky-500 rounded-lg p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
+          className="border-4 border-sky-500 rounded-lg bg-white p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
         >
           Back
         </button>

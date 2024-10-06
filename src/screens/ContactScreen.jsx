@@ -29,7 +29,7 @@ function ContactScreen() {
       <div className="mb-4">
         <button 
           onClick={() => navigate(-1)} 
-          className="border-4 border-sky-500 rounded-lg p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
+          className="border-4 border-sky-500 rounded-lg bg-white p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
         >
           Back
         </button>
@@ -98,7 +98,7 @@ function ContactScreen() {
       {/* Map Placeholder */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4 text-center">Our Location</h2>
-        <div className="bg-gray-300 h-64 rounded-lg shadow-lg flex items-center justify-center text-gray-700 mx-4 md:mx-0">
+        <div className="bg-white h-64 rounded-lg shadow-lg flex items-center justify-center text-gray-700 mx-4 md:mx-0">
           [Map Placeholder]
         </div>
         <p className="text-center mt-4 text-sm text-gray-600">Our office is conveniently located in Pipe City. Please visit us for any in-person inquiries.</p>
