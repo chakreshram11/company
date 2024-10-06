@@ -2,14 +2,20 @@
     "banners": [
       {
         "id": 1,
-        "imageUrl": "/logo192.png",
+        "imageUrl": "/1.png",
         "title": "Welcome to Our Store",
         "description": "Discover our exclusive collection"
       },
       {
         "id": 2,
-        "imageUrl": "/logo192.png",
+        "imageUrl": "/2.png",
         "title": "Special Offers",
+        "description": "Grab the best deals today"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/logo192.png",
+        "title": "Offers",
         "description": "Grab the best deals today"
       }
     ]

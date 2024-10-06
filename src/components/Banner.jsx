@@ -4,7 +4,7 @@ const Banner = ({ banner, isActive }) => {
   const [typedDescription, setTypedDescription] = useState('');
   const [typingIndex, setTypingIndex] = useState(0);
 
-  // Typing animation effect for the description
+  // Reset description when the banner becomes active
   useEffect(() => {
     if (isActive) {
       setTypedDescription(''); // Reset description when the banner becomes active
@@ -12,6 +12,7 @@ const Banner = ({ banner, isActive }) => {
     }
   }, [isActive]);
 
+  // Typing animation effect for the description
   useEffect(() => {
     if (isActive && typingIndex < banner.description.length) {
       const typingTimeout = setTimeout(() => {
@@ -31,7 +32,7 @@ const Banner = ({ banner, isActive }) => {
       />
       {/* Overlay Layer */}
       {isActive && (
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div className="text-white text-center">
             <h2 className="text-2xl font-semibold">{banner.title}</h2>
             <p className="mt-2 text-3xl font-bold">{typedDescription}</p>
