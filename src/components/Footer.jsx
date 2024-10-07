@@ -1,7 +1,8 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { TiSocialFacebook, TiSocialInstagram, TiSocialYoutubeCircular } from "react-icons/ti";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { TiSocialInstagram } from "react-icons/ti"
+// import { TiSocialFacebook, TiSocialInstagram, TiSocialYoutubeCircular } from "react-icons/ti";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -65,18 +66,18 @@ export default function Footer() {
             <div className="md:w-1/12 mb-6 md:mb-0 mr-8">
               <h6 className="text-lg font-semibold mb-2">Follow Us</h6>
               <div className="flex justify-center md:justify-start space-x-4">
-                <a href="https://www.facebook.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
+                {/* <a href="https://www.facebook.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
                   <TiSocialFacebook size={24} />
-                </a>
+                </a> */}
                 <a href="https://www.instagram.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
                   <TiSocialInstagram size={24} />
                 </a>
-                <a href="https://www.youtube.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-500">
+                {/* <a href="https://www.youtube.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-500">
                   <TiSocialYoutubeCircular size={24} />
-                </a>
-                <a href="https://twitter.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
+                </a> */}
+                {/* <a href="https://twitter.com/pipecompany" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500">
                   <FaSquareXTwitter size={24} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
